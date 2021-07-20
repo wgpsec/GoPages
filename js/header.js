@@ -12,15 +12,15 @@ function search() {
             position: "0px 0px",
             url: "https://www.baidu.com/s?wd="
         }, {
-            name: "谷歌",
-            img: "url('/images/search_icon.png')  -105px 0px",
-            position: "-40px 0px",
-            url: "https://www.google.com/search?q="
+            name: "微信搜狗",
+            img: "url('/images/search_icon.png')  -80px -50px",
+            position: "0px -80px",
+            url: "https://weixin.sogou.com/weixin?type=2&s_from=input&query="
         }, {
-            name: "必应",
-            img: "url('/images/search_icon.png')  -80px -25px",
-            position: "0px -40px",
-            url: "https://cn.bing.com/search?q="
+            name: "WooYun漏洞库",
+            img: "url('/images/search_icon.png')  -80px -175px",
+            position: "0px -280px",
+            url: "https://www.madebug.net/search?keywords="
         }, ]
     };
     var localSearchData = localStorage.getItem("searchData");
